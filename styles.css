@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:black;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+h1{
+    font-size: 46px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    color:snow;
+
+}
+
+h1:hover{
+    font-size: 58px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    color:snow;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 20px;
+    color:snow;
+
+}
+
+
+h3{
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 18px;
+    margin-top:14px;
+    color:snow;
+
+}
+
+
+
+p{
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    line-height: 28px;
+    color:snow;
+}
+
+ul{
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    line-height: 28px;
+    color:snow;
+}
+
+.pullquote {
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    line-height: 28px;
+    color:snow;
+}
+
+.pullquote:hover{
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    line-height: 30px;
+    color:red;
+}
+
+#pullquotespecial{
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    line-height: 30px;
+    color:snow;
+}
+#pullquotespecial:hover{
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    line-height: 30px;
+    color:orange;
+}
+#pullquoteextraspecial{
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    line-height: 30px;
+    color:snow;
+}
+#pullquoteextraspecial:hover{
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    line-height: 30px;
+    color:yellow;
+}
+
+#specialquote{
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    line-height: 30px;
+    color:snow;
+}
+
+#specialquote:hover{
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    line-height: 30px;
+    color:green;
+}
+
+#specialquotetwo{
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    line-height: 30px;
+    color:snow;
+}
+#specialquotetwo:hover{
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    line-height: 30px;
+    color:blue;
+}
+
+#specialquotethree{
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    line-height: 30px;
+    color:snow; 
+}
+
+#specialquotethree:hover{
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    line-height: 30px;
+    color:purple;
+}
