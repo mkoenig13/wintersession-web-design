@@ -1,0 +1,417 @@
+/* Use this when you are ready to make a media query style
+
+@media screen and (max-width: 768px) {
+  
+
+}  */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    background-color: black;
+    height: 600px;
+    display: flex;
+    
+
+}
+
+.box{
+    background-color:yellow;
+    height: 600px;
+    width: 50%;
+   
+}
+
+.boxinfo{
+    background-color: black;
+    height: 500px;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    color:white;
+    margin-bottom: 5%;
+    font-size: 20pt;
+}
+
+h2{
+    color:white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-style: italic;
+    font-size: 14pt;
+    
+}
+
+
+.box img{
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+    
+}
+
+.byline{
+    color:red;
+
+}
+
+.sectionhead{
+    color: white;
+    text-align: center;
+    margin-bottom: 18pt;
+    margin-top: 18pt;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .box{
+        background-color:black;
+        height: 600px;
+        width: 100%;
+       
+    }
+
+    .boxinfo{
+        background-color: black;
+        height: 600px;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container{
+        background-color: black;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50%;
+        
+    
+    }
+  
+
+    h1{
+        color:white;
+        margin-bottom: 10%;
+        margin-top: 2%;
+        font-size: 20pt;
+        
+    }
+    
+    h2{
+        color:white;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-style: italic;
+        font-size: 14pt;
+        margin-bottom: 5%;
+        
+    }
+ 
+
+} 
+
+
+
+
+
+
+
+
+   
+.container2{
+
+        background-color: white;
+        height: 500px;
+        display: flex;
+        align-items: flex-end;
+        margin-top: 12%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 0%;
+    
+    }
+
+    .box2{
+        background-color:white;
+        height: 600px;
+        width: 330%;
+        display: flex;
+        margin-bottom: 0%;
+      
+        
+       
+       
+    }
+
+    .box2 img{
+        background-color: blue;
+        height: 70%;
+        width: 80%;
+        object-fit: cover;
+        align-items: flex-end;
+        margin-left: 15%;
+        margin-bottom: 0%;
+       
+       
+    }
+
+   
+
+    .box3{
+        background-color:white;
+        height: 600px;
+        width: 330%;
+        display: flex;
+        margin-bottom: 0%;
+       
+        
+       
+       
+    }
+
+
+    .box3 img{
+        background-color: blue;
+        height: 70%;
+        width: 80%;
+        object-fit: cover;
+        align-items: flex-end;
+        margin-left: 5%;
+        margin-bottom: 0%;
+       
+    }
+
+   
+
+
+
+
+
+
+
+    @media screen and (max-width: 768px) {
+
+        .container2{
+            background-color: white;
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            
+        
+        }
+
+        .box2{
+            background-color:white;
+            height: 600px;
+            width: 100%;
+            display: flex;
+            margin-top: 10%;
+            
+           
+          
+            
+           
+           
+        }
+    
+        .box2 img{
+            background-color: blue;
+            height: 70%;
+            width: 80%;
+            object-fit: cover;
+            align-items: flex-end;
+            margin-left: 0%;
+            margin-bottom: 50px;
+            
+           
+           
+        }
+    
+       
+    
+        .box3{
+            background-color:white;
+            height: 600px;
+            width: 100%;
+            display: flex;
+            margin-top: 10%;
+            
+           
+            
+           
+           
+        }
+    
+    
+        .box3 img{
+            background-color: blue;
+            height: 70%;
+            width: 80%;
+            object-fit: cover;
+            align-items: flex-end;
+            margin-left: 0%;
+            margin-top: 150px;
+           
+           
+        }
+
+    }
+
+
+
+    .container3{
+
+            background-color: white;
+            height: 300px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+      
+    
+    }
+
+    .textbox{
+        background-color:rgb(255, 255, 255);
+        height: 70%;
+        width: 100%;
+        display: flex;
+        margin-top: -12%;
+        margin-left: 16%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        
+        
+        
+       
+       
+    }
+
+    .textbox2{
+        background-color:white;
+        height: 70%;
+        width: 100%;
+        display: flex;
+        margin-top: -12%;
+        margin-left: 4%;
+        margin-right: 16%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        
+        
+       
+       
+    }
+
+    .pspecial{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 8pt;
+        color: black
+    }
+
+    .h1special{
+        color:black
+    }
+
+    .h1v{
+        font-size: 12pt;
+        color:black;
+        
+    }
+
+    .footer{
+        font-size: 8pt;
+        color:black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight:bold;
+
+    }
+    .footers{
+        font-size: 8pt;
+        color:black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+    }
+
+
+    @media screen and (max-width: 768px) {
+
+
+        .container3{
+
+            background-color: white;
+            height: 300px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+      
+    
+    }
+
+    .textbox{
+        background-color:white;
+        height: 90%;
+        width: 100%;
+        display: flex;
+        margin-top: -120%;
+        margin-left: 38%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+        
+        
+        
+       
+       
+    }
+
+    .textbox2{
+        background-color:white;
+        height: 70%;
+        width: 100%;
+        display: flex;
+        margin-top: 15%;
+        margin-left: -28%;
+        margin-right: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40%;
+        
+        
+       
+       
+    }
+
+
+
+
+    }
